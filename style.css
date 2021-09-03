@@ -2,7 +2,7 @@
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -74,20 +74,26 @@
 #about
 {
     width:400px;
+    font-size: larger;
+    margin-left: 30px;
 }
 
 #mission{
     width:800px;
     float:right;
-    margin-top: -190px;
+    font-size: larger;
+    margin-top: -273px;
 }
 
 #firstProject{
-    width:auto;
+    margin-left: 150px;
+    width:1000px;
     margin-top: 50px;
+    font-size: larger;
 }
 #firstProject > h3{
     text-align: center;
+    font-size: larger;
 }
 
 #slides{
@@ -161,7 +167,7 @@
   
 .text {
     color: white;
-    font-size: 20px;
+    font-size: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -182,4 +188,10 @@
 }
 body,html{
     height: 100%;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
 }
